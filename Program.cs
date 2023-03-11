@@ -2,7 +2,7 @@
 
 class Program {
     static void Main(string[] args) {
-        Console.Write("Introduce un número entero: ");
+        Console.Write("porfavor de introducir un número entero: ");
         int num = Convert.ToInt32(Console.ReadLine());
 
         for (int i = 1; i <= num; i++) {
